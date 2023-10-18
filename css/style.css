@@ -175,3 +175,43 @@ span{
     bottom: 40px;
     left: 46px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+}
+
+.ragionesociale{
+    flex-basis: 35%;
+}
+
+.iconesocial{
+    flex-basis: 40%;
+}
+footer .iconesocial{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h3{
+    color: white;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.legal{
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 0;
+    border: 0;
+}
+
