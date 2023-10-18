@@ -4,3 +4,61 @@
     padding: 0;
     border: 0;
 }
+
+:root{
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: #ff6900;
+    position: fixed;
+    z-index: 500;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    min-height: 70px;
+}
+
+.navlist{
+    flex-basis: 20%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 0 3px;
+    margin: 0 2px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.navlogo{
+    display: flex;
+    flex-basis: 35%;
+    justify-content: center;
+}
+
+.logo{
+    height: 30px;
+    content: url(../img/boolean-logo.png);
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 20%;
+}
